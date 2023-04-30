@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: serif;
+    background-image: url(images/wave.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #12a46d; 
+    color: white;
+    /* padding: 10px 0 0 10px; */
+    /* 289473 alt green hex */
+    
+}
+
+header h1 {
+    margin: 0;
+    display: inline-block;
+}
+
+header h2 {
+    display: inline;
+    color: black;
+}
+
+
+.greeting {
+    text-align: center;
+    font-size: 250%;
+    padding: 0% 20%;
+    margin: 1% 10%;
+    border: solid 5px #12a46d;
+    background: white;
+    border-radius: 20px;
+
+}
+
+.message {
+    padding: 10px;
+    border-radius: 20px;
+    border: solid 5px #12a46d;
+    font-size: 150%;
+    top: 55%;
+    margin: 10%;
+    z-index: 1;
+    /* padding: ; */
+    background: white;
+}
+
+nav ul {
+    display: inline;
+}
+
+nav ul li{
+    display: inline-block; 
+    list-style: none;  
+}
+
+nav ul li a{
+    color: black;
+    display: flex;
+    background: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    -moz-transform: translateX(0%) translateY(0%);
+    transform: translateX(0%) translateY(-50%);
+}
+
+.right {
+    text-align: right;
+}
+
+.question {
+    text-align: center;
+    padding: 1%;
+    background-color: white;
+    width: 31%;
+    margin: .25% 33%;
+    border-radius: 20px;
+    color: black;
+    -moz-transform: translateX(0%) translateY(-50%);
+    transform: translateX(0%) translateY(200%);
+    font-size: 120%;
+}
+
+.col {
+    float: left;
+    background-color: white;
+    color: black;
+    padding: 1%;
+    margin: .25% 33%;
+    width: 33%;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+
+    top: 122px;
+}
+
+.button {
+    margin: 0 auto;
+}
+
+.col:hover {
+    background: #12a46d;
+    transition: all 0.1s ease;
+}
+
+.return {
+    margin: 10%;
+    z-index: 1;
+    /* padding: ; */
+    background: white;
+}
+
+.container {
+    align-items: center;
+    -moz-transform: translateX(50%) translateY(50%);
+    transform: translateX(0%) translateY(-20%);
+}
+
+footer {
+    clear: both;
+    margin-top: auto;
+    font-size: small;
+    /* forgot about the floats and wrap around */
+}
